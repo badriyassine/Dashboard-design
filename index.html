@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <aside>
+      <a href="#"><img src="/images/logo.jpg" alt="logo" /></a>
+      <div class="nav">
+        <div class="dashbord">
+          <i class="fa-solid fa-chart-line"></i>
+          <a href="#">Dashbord</a>
+        </div>
+        <div class="products">
+          <i class="fa-solid fa-file"></i>
+          <a href="#">Products</a>
+          <span style="position: relative; left: 60%"
+            ><i class="fa-solid fa-caret-right"></i
+          ></span>
+          <div class="products-list">
+            <a href="#">List Products</a>
+            <a href="#">Creat Product</a>
+            <a href="#">Product Categories</a>
+          </div>
+        </div>
+        <div class="orders">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <a href="#">Orders</a>
+          <span style="position: relative; left: 63.4%"
+            ><i class="fa-solid fa-caret-right"></i
+          ></span>
+          <div class="orders-list">
+            <a href="#">list Order</a>
+            <a href="#">Create Order</a>
+            <a href="#">Manage Status</a>
+          </div>
+        </div>
+        <div class="client">
+          <i class="fa-solid fa-user-tie"></i>
+          <a href="#">Client</a>
+        </div>
+        <div class="user">
+          <i class="fa-solid fa-user"></i>
+          <a href="#">User</a>
+        </div>
+        <div class="settings">
+          <i class="fa-solid fa-gear"></i>
+          <a href="#">Settings</a>
+        </div>
+      </div>
+    </aside>
+    <main>
+      <header>
+        <form action="">
+          <input
+            type="search"
+            class="search-bar"
+            placeholder="Search Products, Client..."
+          />
+        </form>
+        <div class="settings-profile">
+          <div class="link">
+            <span style="padding-right: 5px"
+              ><i class="fa-solid fa-user-gear"></i
+            ></span>
+            <a class="link-settings" href="#">Settings</a>
+          </div>
+          <div class="link">
+            <img src="/images/user-profile-icon-free-vector.jpg" alt="" />
+
+            <a class="link-profile" href="#">Profile</a>
+          </div>
+        </div>
+      </header>
+      <section>
+        <h2>statistiques</h2>
+        <div class="cards">
+          <div class="card1">
+            <div class="card1-icon">
+              <i class="fa-solid fa-chart-simple"></i>
+            </div>
+            <div class="card1-text">
+              <h3 class="number">20,100</h3>
+              <p class="text">salled Products</p>
+            </div>
+          </div>
+          <div class="card2">
+            <div class="card2-icon">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card2-icon">
+              <h3 class="number">490</h3>
+              <p class="text">Dollars</p>
+            </div>
+          </div>
+          <div class="card3">
+            <div class="card3-icon">
+              <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="card3-text">
+              <h3 class="number">235</h3>
+              <p class="text">Client</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Latest Orders</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Client</th>
+              <th>Count Products</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>234</td>
+              <td>Amin Saidi</td>
+              <td>3 products</td>
+              <td>450 MAD</td>
+              <td class="edit">
+                <i class="fa-solid fa-pen"></i
+                ><input type="button" value="Edit" />
+              </td>
+              <td class="Delete">
+                <i class="fa-solid fa-trash"></i
+                ><input type="button" value="Delete" />
+              </td>
+            </tr>
+            <tr>
+              <td>234</td>
+              <td>Amin Saidi</td>
+              <td>3 products</td>
+              <td>450 MAD</td>
+              <td class="edit">
+                <i class="fa-solid fa-pen"></i
+                ><input type="button" value="Edit" />
+              </td>
+              <td class="Delete">
+                <i class="fa-solid fa-trash"></i
+                ><input type="button" value="Delete" />
+              </td>
+            </tr>
+            <tr>
+              <td>234</td>
+              <td>Amin Saidi</td>
+              <td>3 products</td>
+              <td>450 MAD</td>
+              <td class="edit">
+                <i class="fa-solid fa-pen"></i
+                ><input type="button" value="Edit" />
+              </td>
+              <td class="Delete">
+                <i class="fa-solid fa-trash"></i
+                ><input type="button" value="Delete" />
+              </td>
+            </tr>
+            <tr>
+              <td>234</td>
+              <td>Amin Saidi</td>
+              <td>3 products</td>
+              <td>450 MAD</td>
+              <td class="edit">
+                <i class="fa-solid fa-pen"></i
+                ><input type="button" value="Edit" />
+              </td>
+              <td class="Delete">
+                <i class="fa-solid fa-trash"></i
+                ><input type="button" value="Delete" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Latest Products</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Title</th>
+              <th>Price</th>
+              <th>Stock</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>43</td>
+              <td>PC Portable</td>
+              <td>4500 MAD</td>
+              <td>20 units</td>
+              <td class="edit">
+                <i class="fa-solid fa-pen"></i
+                ><input type="button" value="Edit" />
+              </td>
+            </tr>
+            <tr>
+              <td>43</td>
+              <td>PC Portable</td>
+              <td>4500 MAD</td>
+              <td>20 units</td>
+              <td class="edit">
+                <i class="fa-solid fa-pen"></i
+                ><input type="button" value="Edit" />
+              </td>
+            </tr>
+            <tr>
+              <td>43</td>
+              <td>PC Portable</td>
+              <td>4500 MAD</td>
+              <td>20 units</td>
+              <td class="edit">
+                <i class="fa-solid fa-pen"></i
+                ><input type="button" value="Edit" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
