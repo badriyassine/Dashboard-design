@@ -3,12 +3,16 @@
 A **responsive**, **modern**, and **simple dashboard UI** built using only **HTML** and **CSS**.  
 This project focuses purely on front-end design without any dynamic or JavaScript logic. Ideal for practicing layout, responsive grids, and modern UI elements.
 
+---
+
 ## 🌟 Features
 
 - Responsive layout for desktop, tablet, and mobile
 - Clean and modern UI design
 - Uses only semantic HTML5 and modern CSS
 - Fully static (no JS or frameworks)
+
+---
 
 ## 📁 Project Structure
 
@@ -21,11 +25,13 @@ Dashboard-design/
     └── screenshots/
         └── dashboard.png  # Screenshot of the dashboard
 ```
+---
 
 ## 📷 Screenshot
 
 ![Dashboard Screenshot](/images/screenshots/Capture%20d’écran%202025-07-13%20033503.png)
 
+---
 
 ## 💻 How to View
 
@@ -43,9 +49,20 @@ cd Dashboard-design
 
 3. Open `index.html` in your browser.
 
+---
+
+## ⚙️ Technologies Used
+
+- HTML5
+- CSS3  
+
+---
+
 ## 📌 Notes
 
 This is a design-only project. There's **no interactivity or backend** — it's meant to serve as a UI layout example or for learning purposes.
+
+---
 
 ## 👤 Author
 
