@@ -68,6 +68,8 @@ This is a design-only project. There's **no interactivity or backend** — it's 
 
 Made by [**ERROR**](https://github.com/BD-YASSINE)
 
+---
+
 ## 📃 License
 
 This project is open-source and free to use for educational or personal purposes.
